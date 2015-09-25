@@ -1,0 +1,11 @@
+<div>
+  <h1>Ninjas</h1>
+  <h2>Sign-in</h2>
+  <ul class="list-group">
+      <li class="list-group-item" ng-repeat="item in ninjas">
+          <h4>{{item.name}}</h4> 
+          <button class="btn btn-success" ng-click="item.here = true" ng-if="!item.here">Sign In</button>
+          <button class="btn btn-danger" ng-click="item.here = false" ng-if="item.here">Sign Out</button>
+    </li>
+  </ul>
+</div>
