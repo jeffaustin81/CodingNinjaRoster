@@ -1,0 +1,9 @@
+a {
+    cursor: pointer;
+}
+.here li{
+    color: green;
+}
+.not_here li{
+    color: red;
+}
