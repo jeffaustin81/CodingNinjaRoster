@@ -7,3 +7,15 @@ a {
 .not_here li{
     color: red;
 }
+body {
+    width: 100%;
+    padding: 50px 0;
+    color: #000;
+    background: no-repeat center center scroll;
+    background-image: url("ninja_bg.jpg");
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
